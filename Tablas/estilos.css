@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url("fontawesome-webfont.woff");
+}
+.contenido{
+	padding-left:1em;
+}
+a {
+outline:none !important;
+}
+a:hover{
+	text-decoration:none !important;
+}
+a:visited{
+	text-decoration:none !important;
+}
+a:link{
+	text-decoration:none !important;
+}
+.activo {
+	font-weight: bold !important;
+	color:#052346 !important;	
+}
+.main{
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	margin-bottom:10px;
+	margin-top:5px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.link-acordeon{
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 95%;
+	color:steelblue !important;
+}
+.link-acordeon-interior{
+	font-family:Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 90%;
+	color:steelblue !important;
+}
+.col-buscador {
+	margin-top: 25px;
+}
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
